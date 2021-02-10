@@ -26,7 +26,7 @@ switch(shader_array[shader_index])
         gpu_set_tex_filter(false);
         shader_set(shd_super_eagle);
         shader_set_uniform_f(shader_get_uniform(shd_super_eagle, "u_vTexel"), _tw, _th);
-        shader_set_uniform_f(shader_get_uniform(shd_super_eagle, "u_vTextureSize"), 128, 64);
+        shader_set_uniform_f(shader_get_uniform(shd_super_eagle, "u_vTextureSize"), sprite_get_width(sprite_index), sprite_get_height(sprite_index));
         draw_sprite_ext(sprite_index, image_index, x, y, 2, 2, 0, c_white, 1.0);
         shader_reset();
     break;
@@ -43,7 +43,7 @@ switch(shader_array[shader_index])
         gpu_set_tex_filter(false);
         shader_set(shd_5xbr_round);
         shader_set_uniform_f(shader_get_uniform(shd_5xbr_round, "u_vTexel"), _tw, _th);
-        shader_set_uniform_f(shader_get_uniform(shd_5xbr_round, "u_vTextureSize"), 128, 64);
+        shader_set_uniform_f(shader_get_uniform(shd_5xbr_round, "u_vTextureSize"), sprite_get_width(sprite_index), sprite_get_height(sprite_index));
         draw_sprite_ext(sprite_index, image_index, x, y, 5, 5, 0, c_white, 1.0);
         shader_reset();
     break;
@@ -52,7 +52,7 @@ switch(shader_array[shader_index])
         gpu_set_tex_filter(false);
         shader_set(shd_5xbr_semiround);
         shader_set_uniform_f(shader_get_uniform(shd_5xbr_semiround, "u_vTexel"), _tw, _th);
-        shader_set_uniform_f(shader_get_uniform(shd_5xbr_semiround, "u_vTextureSize"), 128, 64);
+        shader_set_uniform_f(shader_get_uniform(shd_5xbr_semiround, "u_vTextureSize"), sprite_get_width(sprite_index), sprite_get_height(sprite_index));
         draw_sprite_ext(sprite_index, image_index, x, y, 5, 5, 0, c_white, 1.0);
         shader_reset();
     break;
@@ -61,7 +61,7 @@ switch(shader_array[shader_index])
         gpu_set_tex_filter(false);
         shader_set(shd_5xbr_square);
         shader_set_uniform_f(shader_get_uniform(shd_5xbr_square, "u_vTexel"), _tw, _th);
-        shader_set_uniform_f(shader_get_uniform(shd_5xbr_square, "u_vTextureSize"), 128, 64);
+        shader_set_uniform_f(shader_get_uniform(shd_5xbr_square, "u_vTextureSize"), sprite_get_width(sprite_index), sprite_get_height(sprite_index));
         draw_sprite_ext(sprite_index, image_index, x, y, 5, 5, 0, c_white, 1.0);
         shader_reset();
     break;
