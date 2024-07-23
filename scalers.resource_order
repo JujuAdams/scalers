@@ -1,0 +1,16 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_test","order":4,"path":"objects/obj_test/obj_test.yy",},
+    {"name":"rm_main","order":5,"path":"rooms/rm_main/rm_main.yy",},
+    {"name":"shd_2xsal","order":1,"path":"shaders/shd_2xsal/shd_2xsal.yy",},
+    {"name":"shd_5xbr_round","order":4,"path":"shaders/shd_5xbr_round/shd_5xbr_round.yy",},
+    {"name":"shd_5xbr_semiround","order":5,"path":"shaders/shd_5xbr_semiround/shd_5xbr_semiround.yy",},
+    {"name":"shd_5xbr_square","order":6,"path":"shaders/shd_5xbr_square/shd_5xbr_square.yy",},
+    {"name":"shd_hq4x","order":3,"path":"shaders/shd_hq4x/shd_hq4x.yy",},
+    {"name":"shd_super_eagle","order":2,"path":"shaders/shd_super_eagle/shd_super_eagle.yy",},
+    {"name":"spr_test_2","order":1,"path":"sprites/spr_test_2/spr_test_2.yy",},
+    {"name":"spr_test_3","order":2,"path":"sprites/spr_test_3/spr_test_3.yy",},
+    {"name":"spr_test_4","order":3,"path":"sprites/spr_test_4/spr_test_4.yy",},
+  ],
+}
