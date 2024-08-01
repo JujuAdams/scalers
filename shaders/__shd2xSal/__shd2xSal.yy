@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"__shd2xSal",
+  "name":"__shd2xSal",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Scalers/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"__shdHQ4x",
+  "name":"__shdHQ4x",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Scalers/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

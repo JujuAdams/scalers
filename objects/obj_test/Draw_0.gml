@@ -6,44 +6,44 @@ var _old_tex_filter = gpu_get_tex_filter();
 
 switch(shaderArray[shaderIndex])
 {
-    case shd_bicubic: //Flexible scaling
+    case ShaderBicubic: //Flexible scaling
         ShaderBicubic(_texture);
         draw_sprite_ext(sprite_index, image_index, x, y, 5, 5, 0, c_white, 1.0);
         gpu_set_tex_filter(false);
         shader_reset();
     break;
     
-    case shd_2xsal: //Fixed scaling x2
+    case Shader2xSal: //Fixed scaling x2
         Shader2xSal(_texture);
         draw_sprite_ext(sprite_index, image_index, x, y, 4, 4, 0, c_white, 1.0);
         shader_reset();
     break;
     
-    case shd_super_eagle: //Fixed scaling x2
+    case ShaderSuperEagle: //Fixed scaling x2
         ShaderSuperEagle(_texture);
         draw_sprite_ext(sprite_index, image_index, x, y, 4, 4, 0, c_white, 1.0);
         shader_reset();
     break;
     
-    case shd_hq4x: //Fixed scaling x4
+    case ShaderHQ4x: //Fixed scaling x4
         ShaderHQ4x(_texture);
         draw_sprite_ext(sprite_index, image_index, x, y, 4, 4, 0, c_white, 1.0);
         shader_reset();
     break;
     
-    case shd_5xbr_round: //Fixed scaling x5
+    case Shader5xBRRound: //Fixed scaling x5
         Shader5xBRRound(_texture);
         draw_sprite_ext(sprite_index, image_index, x, y, 5, 5, 0, c_white, 1.0);
         shader_reset();
     break;
     
-    case shd_5xbr_semiround: //Fixed scaling x5
+    case Shader5xBRSemiRound: //Fixed scaling x5
         Shader5xBRSemiRound(_texture);
         draw_sprite_ext(sprite_index, image_index, x, y, 5, 5, 0, c_white, 1.0);
         shader_reset();
     break;
     
-    case shd_5xbr_square: //Fixed scaling x5
+    case Shader5xBRSquare: //Fixed scaling x5
         Shader5xBRSquare(_texture);
         draw_sprite_ext(sprite_index, image_index, x, y, 5, 5, 0, c_white, 1.0);
         shader_reset();

@@ -1,5 +1,7 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Shaders","order":14,"path":"folders/Scalers/Shaders.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"obj_test","order":6,"path":"objects/obj_test/obj_test.yy",},
     {"name":"rMain","order":7,"path":"rooms/rMain/rMain.yy",},
@@ -10,12 +12,12 @@
     {"name":"ShaderBicubic","order":7,"path":"scripts/ShaderBicubic/ShaderBicubic.yy",},
     {"name":"ShaderHQ4x","order":10,"path":"scripts/ShaderHQ4x/ShaderHQ4x.yy",},
     {"name":"ShaderSuperEagle","order":9,"path":"scripts/ShaderSuperEagle/ShaderSuperEagle.yy",},
-    {"name":"shd_2xsal","order":1,"path":"shaders/shd_2xsal/shd_2xsal.yy",},
-    {"name":"shd_5xbr_round","order":4,"path":"shaders/shd_5xbr_round/shd_5xbr_round.yy",},
-    {"name":"shd_5xbr_semiround","order":5,"path":"shaders/shd_5xbr_semiround/shd_5xbr_semiround.yy",},
-    {"name":"shd_5xbr_square","order":6,"path":"shaders/shd_5xbr_square/shd_5xbr_square.yy",},
-    {"name":"shd_hq4x","order":3,"path":"shaders/shd_hq4x/shd_hq4x.yy",},
-    {"name":"shd_super_eagle","order":2,"path":"shaders/shd_super_eagle/shd_super_eagle.yy",},
+    {"name":"__shd2xSal","order":1,"path":"shaders/__shd2xSal/__shd2xSal.yy",},
+    {"name":"__shd5xBRRound","order":4,"path":"shaders/__shd5xBRRound/__shd5xBRRound.yy",},
+    {"name":"__shd5xBRSemiRound","order":5,"path":"shaders/__shd5xBRSemiRound/__shd5xBRSemiRound.yy",},
+    {"name":"__shd5xBRSquare","order":6,"path":"shaders/__shd5xBRSquare/__shd5xBRSquare.yy",},
+    {"name":"__shdHQ4x","order":3,"path":"shaders/__shdHQ4x/__shdHQ4x.yy",},
+    {"name":"__shdSuperEagle","order":2,"path":"shaders/__shdSuperEagle/__shdSuperEagle.yy",},
     {"name":"sCheckerboard","order":8,"path":"sprites/sCheckerboard/sCheckerboard.yy",},
     {"name":"sTest0","order":1,"path":"sprites/sTest0/sTest0.yy",},
     {"name":"sTest1","order":2,"path":"sprites/sTest1/sTest1.yy",},
