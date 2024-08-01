@@ -21,6 +21,7 @@
   },
   "name":"scalers",
   "resources":[
+    {"id":{"name":"Scalers 1.0.0","path":"notes/Scalers 1.0.0/Scalers 1.0.0.yy",},},
     {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},},
     {"id":{"name":"rMain","path":"rooms/rMain/rMain.yy",},},
     {"id":{"name":"Shader2xSal","path":"scripts/Shader2xSal/Shader2xSal.yy",},},
