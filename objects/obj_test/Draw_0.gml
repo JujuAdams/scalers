@@ -1,8 +1,5 @@
 var _texture = sprite_get_texture(sprite_index, 0);
-var _tw = texture_get_texel_width(_texture);
-var _th = texture_get_texel_height(_texture);
-
-var _old_tex_filter = gpu_get_tex_filter();
+var _oldTexFilter = gpu_get_tex_filter();
 
 switch(shaderArray[shaderIndex])
 {
@@ -55,4 +52,4 @@ switch(shaderArray[shaderIndex])
     break;
 }
 
-gpu_set_tex_filter(_old_tex_filter);
+gpu_set_tex_filter(_oldTexFilter);
