@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ShaderSuperEagle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ShaderSuperEagle",
+  "parent":{
+    "name":"Scalers",
+    "path":"folders/Scalers.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -3,8 +3,8 @@
   "%Name":"shd_2xsal",
   "name":"shd_2xsal",
   "parent":{
-    "name":"Shaders",
-    "path":"folders/Shaders.yy",
+    "name":"Scalers",
+    "path":"folders/Scalers.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

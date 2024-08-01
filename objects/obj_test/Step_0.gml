@@ -1,9 +1,17 @@
 if (keyboard_check_pressed(vk_left))
 {
-    shader_index = (shader_index - 1 + array_length(shader_array)) mod array_length(shader_array);
+    shaderIndex = (shaderIndex - 1 + array_length(shaderArray)) mod array_length(shaderArray);
 }
 
 if (keyboard_check_pressed(vk_right))
 {
-    shader_index = (shader_index + 1 + array_length(shader_array)) mod array_length(shader_array);
+    shaderIndex = (shaderIndex + 1 + array_length(shaderArray)) mod array_length(shaderArray);
 }
+
+if (keyboard_check_pressed(vk_space))
+{
+    image_speed = (image_speed == 0)? 1 : 0;
+}
+
+layer_x("Checkerboard", (layer_get_x("Checkerboard") + 0.5) mod sprite_get_width(sCheckerboard));
+layer_y("Checkerboard", (layer_get_y("Checkerboard") + 0.5) mod sprite_get_height(sCheckerboard));

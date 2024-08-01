@@ -3,8 +3,8 @@
   "%Name":"shd_5xbr_round",
   "name":"shd_5xbr_round",
   "parent":{
-    "name":"Shaders",
-    "path":"folders/Shaders.yy",
+    "name":"Scalers",
+    "path":"folders/Scalers.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

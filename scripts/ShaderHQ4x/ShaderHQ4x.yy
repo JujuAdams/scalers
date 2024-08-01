@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ShaderHQ4x",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ShaderHQ4x",
+  "parent":{
+    "name":"Scalers",
+    "path":"folders/Scalers.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

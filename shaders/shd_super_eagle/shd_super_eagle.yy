@@ -3,8 +3,8 @@
   "%Name":"shd_super_eagle",
   "name":"shd_super_eagle",
   "parent":{
-    "name":"Shaders",
-    "path":"folders/Shaders.yy",
+    "name":"Scalers",
+    "path":"folders/Scalers.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

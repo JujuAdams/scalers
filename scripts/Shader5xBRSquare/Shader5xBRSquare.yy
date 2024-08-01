@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Shader5xBRSquare",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Shader5xBRSquare",
+  "parent":{
+    "name":"Scalers",
+    "path":"folders/Scalers.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

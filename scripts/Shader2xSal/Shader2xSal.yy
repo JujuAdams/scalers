@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Shader2xSal",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Shader2xSal",
+  "parent":{
+    "name":"Scalers",
+    "path":"folders/Scalers.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

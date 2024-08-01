@@ -3,8 +3,8 @@
   "%Name":"shd_5xbr_semiround",
   "name":"shd_5xbr_semiround",
   "parent":{
-    "name":"Shaders",
-    "path":"folders/Shaders.yy",
+    "name":"Scalers",
+    "path":"folders/Scalers.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

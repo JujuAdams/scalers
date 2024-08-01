@@ -15,22 +15,22 @@ void main()
     float dx = u_vTexel.x;
     float dy = u_vTexel.y;
     
-    v_vTexcoord[0].xy = in_TextureCoord + vec2(   -dx,   -dy);
-    v_vTexcoord[0].zw = in_TextureCoord + vec2(   -dx,     0);
-    v_vTexcoord[1].xy = in_TextureCoord + vec2(    dx,   -dy);
-    v_vTexcoord[1].zw = in_TextureCoord + vec2( dx+dx,   -dy);
-    v_vTexcoord[2].xy = in_TextureCoord + vec2(   -dx,     0);
-    v_vTexcoord[2].zw = in_TextureCoord + vec2(    dx,     0);
-    v_vTexcoord[3].xy = in_TextureCoord + vec2( dx+dx,     0);
-    v_vTexcoord[3].zw = in_TextureCoord + vec2(   -dx,    dy);
-    v_vTexcoord[4].xy = in_TextureCoord + vec2(     0,    dy);
-    v_vTexcoord[4].zw = in_TextureCoord + vec2(    dx,    dy);
-    v_vTexcoord[5].xy = in_TextureCoord + vec2( dx+dx,    dy);
-    v_vTexcoord[5].zw = in_TextureCoord + vec2(   -dx, dy+dy);
-    v_vTexcoord[6].xy = in_TextureCoord + vec2(     0, dy+dy);
-    v_vTexcoord[6].zw = in_TextureCoord + vec2(    dx, dy+dy);
-    v_vTexcoord[7].xy = in_TextureCoord + vec2( dx+dx, dy+dy);
-    v_vTexcoord[7].zw = in_TextureCoord;
+    v_vTexcoord[0].xy = in_TextureCoord + vec2(   -dx,   -dy) - 0.5*u_vTexel;
+    v_vTexcoord[0].zw = in_TextureCoord + vec2(   -dx,     0) - 0.5*u_vTexel;
+    v_vTexcoord[1].xy = in_TextureCoord + vec2(    dx,   -dy) - 0.5*u_vTexel;
+    v_vTexcoord[1].zw = in_TextureCoord + vec2( dx+dx,   -dy) - 0.5*u_vTexel;
+    v_vTexcoord[2].xy = in_TextureCoord + vec2(   -dx,     0) - 0.5*u_vTexel;
+    v_vTexcoord[2].zw = in_TextureCoord + vec2(    dx,     0) - 0.5*u_vTexel;
+    v_vTexcoord[3].xy = in_TextureCoord + vec2( dx+dx,     0) - 0.5*u_vTexel;
+    v_vTexcoord[3].zw = in_TextureCoord + vec2(   -dx,    dy) - 0.5*u_vTexel;
+    v_vTexcoord[4].xy = in_TextureCoord + vec2(     0,    dy) - 0.5*u_vTexel;
+    v_vTexcoord[4].zw = in_TextureCoord + vec2(    dx,    dy) - 0.5*u_vTexel;
+    v_vTexcoord[5].xy = in_TextureCoord + vec2( dx+dx,    dy) - 0.5*u_vTexel;
+    v_vTexcoord[5].zw = in_TextureCoord + vec2(   -dx, dy+dy) - 0.5*u_vTexel;
+    v_vTexcoord[6].xy = in_TextureCoord + vec2(     0, dy+dy) - 0.5*u_vTexel;
+    v_vTexcoord[6].zw = in_TextureCoord + vec2(    dx, dy+dy) - 0.5*u_vTexel;
+    v_vTexcoord[7].xy = in_TextureCoord + vec2( dx+dx, dy+dy) - 0.5*u_vTexel;
+    v_vTexcoord[7].zw = in_TextureCoord                       - 0.5*u_vTexel;
     
     v_vColour = in_Colour;
 }

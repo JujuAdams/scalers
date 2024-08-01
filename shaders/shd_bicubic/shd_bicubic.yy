@@ -3,8 +3,8 @@
   "%Name":"shd_bicubic",
   "name":"shd_bicubic",
   "parent":{
-    "name":"Shaders",
-    "path":"folders/Shaders.yy",
+    "name":"Scalers",
+    "path":"folders/Scalers.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

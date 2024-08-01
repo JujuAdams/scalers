@@ -3,8 +3,8 @@
   "%Name":"shd_hq4x",
   "name":"shd_hq4x",
   "parent":{
-    "name":"Shaders",
-    "path":"folders/Shaders.yy",
+    "name":"Scalers",
+    "path":"folders/Scalers.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",
