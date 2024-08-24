@@ -10,6 +10,12 @@ switch(shaderArray[shaderIndex])
         shader_reset();
     break;
     
+    case ShaderScale2x: //Fixed scaling x2
+        ShaderScale2x(_texture);
+        draw_sprite_ext(sprite_index, image_index, x, y, 4, 4, 0, c_white, 1.0);
+        shader_reset();
+    break;
+    
     case Shader2xSal: //Fixed scaling x2
         Shader2xSal(_texture);
         draw_sprite_ext(sprite_index, image_index, x, y, 4, 4, 0, c_white, 1.0);
